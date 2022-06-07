@@ -11,14 +11,6 @@ pub fn sublist<T: PartialEq>(_first_list: &[T], _second_list: &[T]) -> Compariso
     if _first_list==_second_list {
         return Comparison::Equal
     }
-    if _first_list.len() < _second_list.len() {
-        for (x,y) in _first_list.iter().zip(_second_list.iter()){
-            if x==y {
-                println!("Items are equal: {} {}",x,y);
-            }
-
-        }
-
-    }
+   
     Comparison::Unequal
 }
