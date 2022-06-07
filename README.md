@@ -1,7 +1,5 @@
 # Sublist
 
-Welcome to Sublist on Exercism's Rust Track.
-If you need help running the tests or submitting your code, check out `HELP.md`.
 
 ## Instructions
 
